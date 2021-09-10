@@ -1,0 +1,59 @@
+$theme-colors: (
+  'primary': #262626,
+  'danger': #b85c5c,
+  'sucess': #007bff,
+  'dark': #262626,
+);
+
+$pagination-active-bg: #262626;
+$pagination-color: #262626;
+$pagination-hover-color: #262626;
+$pagination-focus-color: #262626;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #fafafa;
+}
+p,
+label {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5em;
+}
+
+input,
+select {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: inherit;
+}
+#root {
+  background: #fafafa;
+  min-height: 100vh;
+  min-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+.page-item {
+  &.active .page-link {
+    cursor: default;
+  }
+}
+.pointer {
+  cursor: pointer;
+}
+.text-bold {
+  font-weight: 600;
+}
+@import '~bootstrap/scss/bootstrap';

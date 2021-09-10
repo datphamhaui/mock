@@ -1,0 +1,84 @@
+.root {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  width: 100%;
+  cursor: pointer;
+}
+
+.logo {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5rem !important;
+  color: #262626 !important;
+}
+
+.navItem {
+  border-radius: 0px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: #aaa;
+}
+
+.navItem i {
+  font-size: 25px;
+}
+
+.navItem img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.navItem:hover {
+  color: #555;
+}
+
+.content {
+  padding: 30px 0px;
+}
+
+.footer {
+  background: #f3f3f3;
+  padding: 16px 0;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  font-family: 'Titillium Web', sans-serif;
+  color: #262626;
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  vertical-align: top;
+  margin-left: 10px;
+  font-size: 0.8rem;
+  color: #bbb;
+  font-weight: 300;
+}
+
+.attribution a {
+  font-family: 'Titillium Web', sans-serif;
+  color: #262626;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: absolute;
+  width: 200px;
+  background: #ffffff;
+  top: 51px;
+  left: -42px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.0975);
+}
+
+.dropdown i {
+  font-size: 20px;
+  margin-right: 10px;
+}

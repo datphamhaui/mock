@@ -1,0 +1,25 @@
+.wrapper {
+  border-bottom: 1px solid #0000001a;
+  margin-bottom: -1;
+  width: 100%;
+}
+.active {
+  color: #262626 !important;
+  border-bottom: 2px solid #262626;
+  margin-bottom: -1px;
+}
+.active:hover {
+  color: #262626;
+}
+.unactive {
+  color: #aaa;
+  margin-bottom: -1px;
+}
+.unactive:hover {
+  color: #555;
+}
+.img {
+  margin-right: 10px;
+  width: 30px;
+  border-radius: 50%;
+}

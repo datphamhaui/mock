@@ -1,0 +1,47 @@
+.root {
+  width: 328px;
+  height: 325px;
+  background: #ffffff;
+  border-radius: 7;
+  padding: 10px 10px 0px 10px;
+  overflow-y: scroll;
+  animation: zoomIn 0.1s ease-out;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.0975);
+}
+.text {
+  color: #757575;
+  font-weight: 400;
+  margin: 8px 0px 8px 8px;
+}
+.wrapper {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.iconWrapper {
+  margin-bottom: 16px;
+  width: 100%;
+  display: flex;
+  align-content: flex-start;
+  flex-flow: row wrap;
+}
+.icon {
+  width: 33px;
+  height: 33px;
+  font-size: 25px;
+  margin: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}

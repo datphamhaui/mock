@@ -1,0 +1,36 @@
+.account {
+  font-size: 16px;
+  color: #5cb85c;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+.input {
+  height: 50px;
+}
+.button {
+  color: #ffffff;
+  padding: 12px 20px;
+  font-size: 20px;
+}
+.button:hover {
+  color: #ffffff;
+}
+
+.hide {
+  margin: 20px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hide i {
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hide p {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}

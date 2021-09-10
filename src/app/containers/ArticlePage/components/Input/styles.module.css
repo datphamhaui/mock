@@ -1,0 +1,117 @@
+.root {
+  border-left: 1px solid #0000001a;
+  height: 100%;
+}
+.reaction {
+  height: 45;
+  width: 100%;
+  padding: 4px 8px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.like {
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.remove {
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  display: flex;
+  right: 0;
+  top: 30px;
+  padding: 15px;
+  gap: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.0975);
+  cursor: default;
+  z-index: 9999;
+}
+
+.dropdown i:nth-child(1) {
+  color: #0095f6;
+}
+
+.dropdown i:nth-child(2) {
+  color: #b85c5c;
+}
+
+.likeCounter {
+  padding: 0px 16px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.typeWrapper {
+  width: 100%;
+  min-height: 56px;
+  padding: 0px 16px;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.area {
+  width: auto;
+  height: 20px;
+  border: none;
+  background-color: #ffffff;
+  max-height: 80;
+  resize: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-grow: 1;
+  outline: 0;
+}
+.input {
+  width: 322px;
+  height: 100%;
+  border: 0;
+}
+.input:focus,
+.area:focus {
+  outline: none;
+}
+.post {
+  font-size: 14px;
+  color: #0095f6;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.comment {
+  display: flex;
+}
+
+.user {
+  display: flex;
+}
+
+.comment .user .userInfo {
+  display: block;
+}
+.emoji {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  cursor: pointer;
+  margin: 8px 16px 8px 0px;
+}
+.box {
+  position: absolute;
+  bottom: 0;
+}
